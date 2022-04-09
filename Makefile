@@ -1,3 +1,3 @@
 #original
 default:
-	g++ ./src/main.cpp -o ./build/main.exe -O2 -Wall -Wno-missing-braces -Wunused-result -g -I./src/include/ -L./src/lib/ -lraylib -lopengl32 -lgdi32 -lwinmm
+	cc src/main.c -framework IOKit -framework Cocoa -framework OpenGL `pkg-config --libs --cflags raylib` -o build/RayLibGame

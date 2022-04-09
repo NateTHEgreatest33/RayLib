@@ -19,7 +19,7 @@
 *
 ********************************************************************************************/
 
-#include "raylib/raylib.h"
+#include "include/raylib/raylib.h"
 
 int main(void)
 {
