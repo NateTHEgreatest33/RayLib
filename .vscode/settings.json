@@ -69,6 +69,7 @@
 		"forward_list": "cpp",
 		"fstream": "cpp",
 		"iomanip": "cpp",
-		"valarray": "cpp"
+		"valarray": "cpp",
+		"raylib.h": "c"
 	}
 }
