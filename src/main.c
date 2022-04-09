@@ -14,7 +14,7 @@ int main(void)
     const int screenWidth = 800;
     const int screenHeight = 450;
 
-    InitWindow(screenWidth, screenHeight, "raylib [shapes] example - raylib logo animation");
+    InitWindow(screenWidth, screenHeight, "RayLib Example");
 
     int logoPositionX = screenWidth/2 - 128;
     int logoPositionY = screenHeight/2 - 128;
