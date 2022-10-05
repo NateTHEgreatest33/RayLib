@@ -6,9 +6,17 @@
 ********************************************************************************************/
 
 #include "include/raylib.h"
+//#include "game_includes/example.hpp"
+
+#include "vector"
+#include <unordered_map>
+
+std::vector<int> TestVec;
 
 int main(void)
 {
+    TestVec.push_back(1);
+    
     // Initialization
     //--------------------------------------------------------------------------------------
     const int screenWidth = 800;
